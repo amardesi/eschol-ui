@@ -84,6 +84,7 @@ class Home extends React.Component {
           <li><a href="#journalgrid">Journal Grid</a></li>
           <li><a href="#journalinfo">Journal Information</a></li>
           <li><a href="#jump">Jump</a></li>
+          <li><a href="#jump2">Jump v.2</a></li>
           <li><a href="#language">language</a></li>
           <li><a href="#lazyimage">Lazy Image</a></li>
           <li><a href="#marquee">Marquee</a></li>

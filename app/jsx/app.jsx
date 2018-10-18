@@ -71,6 +71,7 @@ import JournalInfoDisp from './display/JournalInfoDisp.jsx'
 import JournalSimpleLayout from './layouts/JournalSimpleLayout.jsx'
 import JournalSplashyLayout from './layouts/JournalSplashyLayout.jsx'
 import JumpDisp from './display/JumpDisp.jsx'
+import Jump2Disp from './display/Jump2Disp.jsx'
 import LanguageDisp from './display/LanguageDisp.jsx'
 import LazyImageDisp from './display/LazyImageDisp.jsx'
 import MarqueeDisp from './display/MarqueeDisp.jsx'
@@ -202,6 +203,7 @@ ReactDOM.render((
       <Route path="/journalitemmultimedia" component={JournalItemMultimediaLayout} />
       <Route path="/journalitempdf" component={JournalItemPdfLayout} />
       <Route path="/jump" component={JumpDisp} />
+      <Route path="/jump2" component={Jump2Disp} />
       <Route path="/language" component={LanguageDisp} />
       <Route path="/lazyimage" component={LazyImageDisp} />
       <Route path="/marquee" component={MarqueeDisp} />

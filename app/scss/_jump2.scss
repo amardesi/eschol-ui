@@ -1,0 +1,50 @@
+// ##### Jump2 Component ##### //
+
+$jump2-list-spacing: 0.5em;
+
+.c-jumptree,
+.c-jumptree ul {
+  margin: 0 0 0 0.6em;
+  padding: 0;
+  list-style: none;
+}
+
+.c-jumptree ul {
+  // border: $bred;
+  margin-left: 1.6em;
+  padding: $jump2-list-spacing 0;
+}
+
+.c-jumptree {
+  margin-top: 0.5em;
+  margin-bottom: 0.75em;
+
+  li {
+    margin: 0;
+    padding: $jump2-list-spacing 0;
+    border-left: thin solid $color-black;
+
+    .c-jumptree-toc {
+      padding: 0.18em;
+    }
+
+    &:before {
+      // border: $bred;
+      display: inline-block;
+      width: 0.7em;
+      height: 0.6em;   // 0.6em;
+      margin-right: 0.3em;
+      border-bottom: thin solid $color-black;
+      content: '';
+      vertical-align: top;
+    }
+
+    &:last-child {
+      border-left: none; 
+    }
+
+    &:last-child:before {
+      border-left: thin solid $color-black;
+    }
+  }
+}
